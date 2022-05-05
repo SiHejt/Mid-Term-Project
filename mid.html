@@ -3,14 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<title>자기소개 홈페이지</title>
-	<link rel="stylesheet" type="text/css" href="mid.css">
+	<!--<link rel="stylesheet" type="text/css" href="mid.css">-->
+	<style type="text/css">
+	body {
+		background-color: gray;
+	}
+	div.left {
+		position: absolute;
+		left: 25%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+	div.right {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(0%, -50%);
+	}
+</style>
 </head>
 <body>
-	<img src="computer.jpg" style="float: right; width: 50%">
-	김시현
-	Siheon Kim
-	<br>
-	단국대학교
-	소프트웨어학과
+	<div class="left">
+		김시현<br>Siheon Kim<br><br>단국대학교<br>소프트웨어학과
+	</div>
+	<div class="right">
+		<img src="computer_small.jpg">
+	</div>
 </body>
 </html>
