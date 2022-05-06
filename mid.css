@@ -14,11 +14,17 @@ body {
 	color: gainsboro;
 }
 #right {
+	overflow: hidden;
 	position: absolute;
 	height: 100%;
 	left: 50%;
 	top: 50%;
 	transform: translate(0%, -50%);
+}
+#top {
+	position: absolute;
+	overflow: hidden;
+	top: 0%;
 }
 #title {
 	text-align: center;
